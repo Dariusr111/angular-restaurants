@@ -1,4 +1,5 @@
 # Restoranas
+![image](https://user-images.githubusercontent.com/106965568/204754148-ac68dc1d-59b2-46c0-8af2-e3455a6b5208.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
 

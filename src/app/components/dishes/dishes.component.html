@@ -1,0 +1,21 @@
+<div class="card">
+  <div class="card-header">Patiekalai</div>
+  <div class="card-body">
+    <table class="table">
+      <thead>
+      <tr>
+        <th>Pavadinimas</th>
+        <th>Kaina</th>
+        <th>Nuotrauka</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let dish of dishes">
+        <td>{{ dish.name}}</td>
+        <td>{{ dish.price}}</td>
+        <td>{{ dish.picture}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

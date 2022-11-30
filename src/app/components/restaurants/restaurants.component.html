@@ -1,0 +1,23 @@
+<div class="card">
+  <div class="card-header">Restoranai</div>
+  <div class="card-body">
+    <table class="table">
+      <thead>
+      <tr>
+        <th>Pavadinimas</th>
+        <th>Miestas</th>
+        <th>Adresas</th>
+        <th>Darbo laikas</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let restaurant of restaurants">
+        <td>{{ restaurant.name}}</td>
+        <td>{{ restaurant.city}}</td>
+        <td>{{ restaurant.address}}</td>
+        <td>{{ restaurant.opening_hours}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
